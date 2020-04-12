@@ -13,17 +13,16 @@ import useLocalStorage from "../../hooks/useLocalStorage";
 export default function Feed({ isMore }) {
   const { state, dispatch } = useContext(GlobalContext);
   const { feed, page, upvotedList, hideList } = state;
-  const [upvoteList, setUpvoteList] = useLocalStorage("upvotedNewsItems", []);
-  const [hiddenList, setHiddenList] = useLocalStorage("hiddenNewsItems", []);
+  const [upvoteList] = useLocalStorage("upvotedNewsItems", []);
+  const [hiddenList] = useLocalStorage("hiddenNewsItems", []);
 
   useEffect(() => {
     updateUpvotedList(upvoteList, dispatch);
     updateHideList(hiddenList, dispatch);
-    console.log(state, "state");
   }, []);
 
   const getType = (post) => {
-    const index = upvotedList
+    const index = upvotedList.length
       ? upvotedList.findIndex((item) => item.objectID === post.objectID)
       : -1;
     if (index >= 0) {
@@ -33,7 +32,7 @@ export default function Feed({ isMore }) {
   };
 
   const isHidden = (post) => {
-    const index = hideList
+    const index = hideList.length
       ? hideList.findIndex((item) => item.objectID === post.objectID)
       : -1;
     if (index >= 0) {

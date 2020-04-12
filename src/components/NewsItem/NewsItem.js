@@ -56,7 +56,10 @@ export default function NewsItem({ newsItem, order, isUpvoted }) {
   };
 
   return (
-    <article className={`news-item  ${order % 2 === 0 ? "even" : "odd"}`}>
+    <article
+      className={`news-item  ${order % 2 === 0 ? "even" : "odd"}`}
+      data-testid="news-item"
+    >
       <span className="news-item__comment-count">{newsItem.num_comments}</span>
       <span className={`news-item__points news-item--${getShade()}`}>
         {newsItem.points}

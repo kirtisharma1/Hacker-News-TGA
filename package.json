@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "jest --config ./config/jest.config.js --watch"
+    "test": "jest --config ./config/jest.config.js --watchAll --coverage"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.5.0",

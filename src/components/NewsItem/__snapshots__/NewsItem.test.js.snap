@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsItem component snapshot 1`] = `
+<DocumentFragment>
+  <article
+    class="news-item  odd"
+    data-testid="news-item"
+  >
+    <span
+      class="news-item__comment-count"
+    >
+      156
+    </span>
+    <span
+      class="news-item__points news-item--lightest"
+    >
+      2037
+    </span>
+    <button
+      class="btn-empty news-item__upvote"
+      type="button"
+    >
+      ▼
+    </button>
+    <p
+      class="news-item__title"
+    >
+      John Conway has died
+      <span>
+        (
+        <a
+          href="https://twitter.com/CardColm/status/1249038195880341505"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          twitter.com
+        </a>
+        ) by 
+        <b>
+          ColinWright
+        </b>
+         
+        <date>
+          1 day ago
+        </date>
+      </span>
+       [
+      <button
+        class="btn-empty news-item__hide"
+        type="button"
+      >
+        hide
+      </button>
+      ]
+    </p>
+  </article>
+</DocumentFragment>
+`;

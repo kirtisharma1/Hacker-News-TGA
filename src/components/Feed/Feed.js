@@ -1,6 +1,6 @@
 import React, { useEffect, useContext } from "react";
 import PropTypes from "prop-types";
-import NewsItem from "../newsItem/NewsItem";
+import NewsItem from "../NewsItem";
 import { GlobalContext } from "../../store/context";
 import { MORE_LABEL, LOADING_TEXT } from "../../constants";
 import {

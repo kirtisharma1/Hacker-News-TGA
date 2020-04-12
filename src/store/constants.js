@@ -1,0 +1,11 @@
+export const UPDATE_FEED = "UPDATE_FEED";
+export const UPDATE_SORT_TYPE = "UPDATE_SORT_TYPE";
+export const UPDATE_UPVOTED_LIST = "UPDATE_UPVOTED_LIST";
+export const UPDATE_HIDE_LIST = "UPDATE_HIDE_LIST";
+export const UPDATE_PAGE = "UPDATE_PAGE";
+export const HEADER_TITLE = "Hacker News";
+export const HEADER_TOP_LABEL = "top";
+export const HEADER_NEW_LABEL = "new";
+export const HIDE_LABEL = "hide";
+export const MORE_LABEL = "more";
+export const LOADING_TEXT = "Loading...";

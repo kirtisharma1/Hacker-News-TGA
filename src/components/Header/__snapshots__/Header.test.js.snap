@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component snapshot 1`] = `
+<DocumentFragment>
+  <header
+    class="header container-wrapper"
+  >
+    <h1
+      class="header__title"
+    >
+      Hacker News
+    </h1>
+    <nav
+      class="header__navigation"
+    >
+      <ul
+        class="header__navigation__list"
+      >
+        <li>
+          <button
+            class="btn-empty header__navigation__list--deactive"
+            type="button"
+          >
+            top
+          </button>
+        </li>
+        <li>
+           | 
+        </li>
+        <li>
+          <button
+            class="btn-empty header__navigation__list--deactive"
+            type="button"
+          >
+            new
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</DocumentFragment>
+`;

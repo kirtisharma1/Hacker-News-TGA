@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Feed component snapshot 1`] = `
+<DocumentFragment>
+  <main
+    class="container-wrapper feed"
+  >
+    <article
+      class="news-item  even"
+      data-testid="news-item"
+    >
+      <span
+        class="news-item__comment-count"
+      >
+        156
+      </span>
+      <span
+        class="news-item__points news-item--lightest"
+      >
+        2037
+      </span>
+      <button
+        class="btn-empty news-item__upvote"
+        type="button"
+      >
+        ▲
+      </button>
+      <p
+        class="news-item__title"
+      >
+        John Conway has died
+        <span>
+          (
+          <a
+            href="https://twitter.com/CardColm/status/1249038195880341505"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            twitter.com
+          </a>
+          ) by 
+          <b>
+            ColinWright
+          </b>
+           
+          <date>
+            1 day ago
+          </date>
+        </span>
+         [
+        <button
+          class="btn-empty news-item__hide"
+          type="button"
+        >
+          hide
+        </button>
+        ]
+      </p>
+    </article>
+    <article
+      class="news-item  odd"
+      data-testid="news-item"
+    >
+      <span
+        class="news-item__comment-count"
+      >
+        355
+      </span>
+      <span
+        class="news-item__points news-item--lightest"
+      >
+        531
+      </span>
+      <button
+        class="btn-empty news-item__upvote"
+        type="button"
+      >
+        ▲
+      </button>
+      <p
+        class="news-item__title"
+      >
+        Nasty macOS flaw is bricking MacBooks: Don't install this update
+        <span>
+          (
+          <a
+            href="https://www.tomsguide.com/news/nasty-macos-flaw-is-bricking-macbooks-dont-install-this-update"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            www.tomsguide.com
+          </a>
+          ) by 
+          <b>
+            Corrado
+          </b>
+           
+          <date>
+            18 hours ago
+          </date>
+        </span>
+         [
+        <button
+          class="btn-empty news-item__hide"
+          type="button"
+        >
+          hide
+        </button>
+        ]
+      </p>
+    </article>
+    <button
+      class="btn-empty feed__more"
+      type="button"
+    >
+      more
+    </button>
+  </main>
+</DocumentFragment>
+`;

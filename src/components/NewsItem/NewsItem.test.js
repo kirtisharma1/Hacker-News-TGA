@@ -221,7 +221,7 @@ describe("NewsItem component", () => {
           dispatch,
         }}
       >
-        <NewsItem newsItem={mockItem} order="even" isUpvoted={"\u25BC"} />
+        <NewsItem newsItem={mockItem} order={2} isUpvoted={"\u25BC"} />
       </GlobalContextProvider>
     );
   });
@@ -232,7 +232,7 @@ describe("NewsItem component", () => {
   test("upvote", () => {
     fireEvent.click(result.getByText("\u25BC"));
     wait(() => {
-      expect(result.getByText("\u25B2")).toBeInTheDocument();
+      expect(result.queryByText("\u25B2")).toBeInTheDocument();
       fireEvent.click(result.getByText("\u25B2"));
     });
 

@@ -3,7 +3,7 @@
 exports[`NewsItem component snapshot 1`] = `
 <DocumentFragment>
   <article
-    class="news-item  odd"
+    class="news-item  even"
     data-testid="news-item"
   >
     <span

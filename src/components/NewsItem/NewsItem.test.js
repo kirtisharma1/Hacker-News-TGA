@@ -221,7 +221,7 @@ describe("NewsItem component", () => {
           dispatch,
         }}
       >
-        <NewsItem newsItem={mockItem} order="even" isUpvoted={"\u25BC"} />
+        <NewsItem newsItem={mockItem} order={2} isUpvoted={"\u25BC"} />
       </GlobalContextProvider>
     );
   });
